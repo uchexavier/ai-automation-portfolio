@@ -32,7 +32,7 @@ For this demonstration, the high-value threshold is **NGN 50,000**.
 - **Gmail:** Sends internal high-value order notifications.
 
 ## 4. Workflow Architecture
-
+![Automated Order Reminder Workflow](order-reminder-workflow.png)
 Webhook → Edit Fields → Code → IF Node
 
 **High-value branch (amount > NGN 50,000):**
