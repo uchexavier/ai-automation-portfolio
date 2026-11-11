@@ -142,3 +142,22 @@ Future improvements could include:
 
 **Built by Uche Xavier**  
 AI Automation & Workflow Engineering
+
+## 12. Testing Evidence
+
+The workflow was tested using sample orders to verify both routing paths and the email notification.
+
+### High-Value Order
+Orders above NGN 50,000 are recorded in the high-value orders sheet.
+
+![High-Value Orders](high-value-orders.png)
+
+### Regular Orders
+Orders of NGN 50,000 or below are recorded without triggering an email notification.
+
+![Regular Orders](regular-orders.png)
+
+### Email Notification
+The business owner or team receives an automated Gmail alert when a high-value order is submitted.
+
+![Email Notification](email-notification.png)
