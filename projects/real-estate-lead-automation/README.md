@@ -127,8 +127,8 @@ The workflow was tested using a sample property enquiry.
 | Lead Intent | Buyer |
 | Urgency | High |
 | Property Type | Land |
-| Location | aba |
-| Budget | 7 miilion |
+| Location | Aba |
+| Budget | 7,000,000 |
 | Timeline | Immediate |
 
 ### Test Observation
@@ -136,6 +136,26 @@ The workflow was tested using a sample property enquiry.
 The workflow successfully identified the buyer's intent, property type, location, urgency, and timeline.
 
 The budget was extracted but retained the spelling error from the original message. This highlights an opportunity to improve budget normalization and data validation.
+
+
+### Second Test: Defined Purchase Timeline
+
+**Sample enquiry:**
+
+"I want to buy a 3-bedroom house in Lagos next month. My budget is 25 million."
+
+**AI-extracted output:**
+
+| Field | Extracted Value |
+|---|---|
+| Lead Intent | Buyer |
+| Urgency | Medium |
+| Property Type | House |
+| Location | Lagos |
+| Budget | 25,000,000 |
+| Timeline | 1-3 Months |
+
+**Test Result:** All six fields matched the expected output.
 
 *Note: This is sample test data, not a real customer enquiry.*
 
