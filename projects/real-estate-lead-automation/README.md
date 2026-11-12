@@ -113,7 +113,6 @@ Missing budget or priority values are displayed as Not provided rather than bein
 
 ### Lead Capture Form
 
-### Lead Capture Form
 
 ![Real estate lead capture form](lead-form.png)
 
