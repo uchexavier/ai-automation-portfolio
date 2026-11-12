@@ -192,6 +192,14 @@ The notification demonstrates how processed lead information is delivered to the
 
 The workflow has been tested using Google Sheets and the WhatsApp Business Cloud API test environment. It is a demonstration project and is not presented as a live client deployment.
 
+## Current Limitations
+
+- This project is a demonstration, not a live client deployment.
+- WhatsApp notifications were tested using the WhatsApp Business Cloud test environment.
+- The workflow has been tested with sample enquiries, not a large volume of real customer data.
+- Production use would require the client's WhatsApp Business credentials and proper setup.
+- Error handling and automatic retries can be improved before production deployment.
+  
 ## Future Improvements
 
 - Improve consistency between urgency and timeline classifications.
