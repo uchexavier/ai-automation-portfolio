@@ -113,15 +113,13 @@ Missing budget or priority values are displayed as Not provided rather than bein
 
 ### Lead Capture Form
 
-![Real estate lead capture form](lead-form.png)
+### Lead Capture Form
 
-The form provides the entry point for incoming property enquiries.
+![Real estate lead capture form](lead-form.png)
 
 ### Google Sheets Lead Records
 
 ![AI processed real estate leads](google-sheets-leads.png)
-
-The spreadsheet shows incoming enquiries alongside extracted property details, budget, timeline, priority, and lead status.
 
 ### WhatsApp Team Notification
 
