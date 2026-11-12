@@ -112,6 +112,34 @@ Missing budget or priority values are displayed as Not provided rather than bein
 - **WhatsApp Business Cloud API:** Team notifications.
 - **Webhook Form:** Lead submission trigger.
 
+## Sample Test Case
+
+The workflow was tested using a sample property enquiry.
+
+### Original Enquiry
+
+"I want a land in Aba, with the budget of 7 million and I need feedback soon."
+
+### AI-Extracted Output
+
+| Field | Extracted Value |
+|---|---|
+| Lead Intent | Buyer |
+| Urgency | High |
+| Property Type | Land |
+| Location | aba |
+| Budget | 7 miilion |
+| Timeline | Immediate |
+
+### Test Observation
+
+The workflow successfully identified the buyer's intent, property type, location, urgency, and timeline.
+
+The budget was extracted but retained the spelling error from the original message. This highlights an opportunity to improve budget normalization and data validation.
+
+*Note: This is sample test data, not a real customer enquiry.*
+
+
 ## Workflow Evidence
 
 ### Lead Capture Form
