@@ -32,6 +32,9 @@ When a prospect submits an enquiry:
 6. WhatsApp sends a notification containing the processed lead information to the team.
 
 ## Workflow Architecture
+### Complete Workflow
+
+![Real Estate Lead Automation Workflow](workflow-overview.png)
 
 **Form Submission → Google Sheets (Append Row) → AI Lead Analysis → Google Sheets (Update Row) → WhatsApp Notification**
 
