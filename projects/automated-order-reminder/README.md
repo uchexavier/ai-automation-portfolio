@@ -1,4 +1,4 @@
-# Automated Order Reminder System
+# Automated Order Classification & High-Value Alert System
 
 An n8n automation workflow that classifies incoming orders by value, records them in separate Google Sheets, and automatically alerts the business owner or team when a high-value order requires attention.
 
