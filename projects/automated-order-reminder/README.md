@@ -62,8 +62,12 @@ The JavaScript Code node cleans incoming amount values before they reach the IF 
 It removes currency labels, commas and whitespace, and converts shorthand amounts such as `75k` into numeric values.
 
 ```javascript
+
 return $input.all().map(item => {
-  let text = String(item.json.amount).toLowerCase().replace(/ngn|,|\s/g, '');
+  let text = String(item.json.amount)
+    .toLowerCase()
+    .replace(/ngn|,|\s/g, '');
+
   let number = text.endsWith('k')
     ? parseFloat(text) * 1000
     : parseFloat(text);
@@ -75,6 +79,7 @@ return $input.all().map(item => {
     }
   };
 });
+
 ```
 
 This allows the workflow to evaluate monetary values consistently.
