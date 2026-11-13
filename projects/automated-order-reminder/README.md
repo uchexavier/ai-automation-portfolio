@@ -122,7 +122,15 @@ The tested business logic confirms that:
 - Orders of NGN 50,000 or below follow the regular-order branch.
 - Both branches use Append Row to store order records.
 
-## 10. Potential Improvements
+## 10. Current Limitations
+
+- This project is a personal demonstration, not a live client deployment.
+- Testing was performed using sample orders.
+- The workflow assumes the incoming order amount can be converted into a valid number.
+- Input validation and error handling are not yet fully implemented.
+- Gmail and Google Sheets require properly configured credentials before business use.
+
+## 11. Potential Improvements
 
 Future improvements could include:
 
@@ -133,7 +141,7 @@ Future improvements could include:
 - Execution logging and failure alerts.
 - Integration with actual order-management systems.
 
-## 11. Key Skills Demonstrated
+## 12. Key Skills Demonstrated
 
 - Workflow automation with n8n.
 - Webhook integrations.
@@ -143,12 +151,7 @@ Future improvements could include:
 - Gmail automation.
 - Business-process optimization.
 
----
-
-**Built by Uche Xavier**  
-AI Automation & Workflow Engineering
-
-## 12. Testing Evidence
+## 13. Testing Evidence
 
 The workflow was tested using sample orders to verify both routing paths and the email notification.
 
@@ -166,3 +169,8 @@ Orders of NGN 50,000 or below are recorded without triggering an email notificat
 The business owner or team receives an automated Gmail alert when a high-value order is submitted.
 
 ![Email Notification](email-notification.png)
+
+---
+
+**Built by Uche Xavier**  
+AI Automation & Workflow Engineering
