@@ -56,7 +56,7 @@ An order-processing workflow that categorizes incoming orders based on their mon
 - Separate Google Sheets records for high-value and regular orders.
 - Email alerts for orders above ₦50,000.
 
-[View Project →](projects/automated-order-reminder/)
+[View Project →](https://github.com/uchexavier/ai-automation-portfolio/tree/main/projects/automated-order-reminder)
 
 ## Additional Automation Experiments
 
