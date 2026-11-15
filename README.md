@@ -92,4 +92,8 @@ I'm continuously building, testing, learning, and documenting my work.
 
 ---
 
-**GitHub:** [github.com/uchexavier](https://github.com/uchexavier)
+## Contact
+
+- **Email:** [uchennabuilds@gmail.com](mailto:uchennabuilds@gmail.com)
+- **LinkedIn:** [Uchenna Francis-Xavier Boniface](https://www.linkedin.com/in/uchenna-francis-xavier-boniface/)
+- **GitHub:** [github.com/uchexavier](https://github.com/uchexavier)
